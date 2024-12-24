@@ -34,7 +34,7 @@ Liquidations occur inside the liquidator’s credit account. Any liquidated asse
 
 Liquidations follow a multi-step process:
 
-1. A third-party liquidator uses on-chain data to identify an account that has a health factor -1.
+1. A third-party liquidator uses on-chain data to identify an account that has a health factor <1.
 2. This liquidator identifies a debt asset they wish to pay back on behalf of an account.
 3. This liquidator also identifies the collateral asset they wish to receive.
 4. The liquidator pays back an arbitrary amount of the user’s debt, up to the close factor (i.e. if the close factor is 50%, the liquidator can only repay up to 50% of the user’s debt in a single liquidation transaction).
